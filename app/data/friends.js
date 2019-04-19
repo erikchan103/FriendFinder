@@ -1,7 +1,7 @@
 var friends = [
     {
         name:"Erik",
-        photo:"#",
+        photo:"https://media.licdn.com/dms/image/C4D03AQGWluTdFyGQqA/profile-displayphoto-shrink_200_200/0?e=1560988800&v=beta&t=yo1aXJ_96u9BCqiopdZV43xiNoiSiQUVQhiL5UpBxK8",
         scores:[
             "3",
             "3",
@@ -12,6 +12,38 @@ var friends = [
             "3",
             "3",
             "3",
+            "3"
+        ]
+    },
+    {
+        name:"Elon",
+        photo:"https://image.cnbcfm.com/api/v1/image/104994086-RTX4RL3Z.jpg?v=1534179983&w=1910",
+        scores:[
+            "2",
+            "3",
+            "1",
+            "3",
+            "5",
+            "4",
+            "1",
+            "2",
+            "1",
+            "1"
+        ]
+    },
+    {
+        name:"Ryan",
+        photo:"https://i1.wp.com/www.cimrecovery.org/wp-content/uploads/2017/04/person-6.jpg?resize=675%2C675&ssl=1",
+        scores:[
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "4",
+            "3",
+            "2",
+            "1",
             "3"
         ]
     }

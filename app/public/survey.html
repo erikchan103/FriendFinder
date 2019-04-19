@@ -146,7 +146,8 @@
     </div>
     <footer class="footer">
         <div class="container">
-            <p><a href="#">API Friends List</a> | <a href="#">Github Repo</p>
+            <p><a href="../data/friends.js">API Friends List</a> | <a
+                    href="https://github.com/erikchan103/FriendFinder">Github Repo</p>
         </div>
     </footer>
     <div id="matchModal" class="modal" tabindex="-1" role="dialog">
@@ -192,7 +193,7 @@
         var currentPath = window.location.origin;
         $.post(currentPath + '/api/friends', userData, function (data) {
             $('#matchName').text(data.name);
-            $('#matchImg').attr('src',data.photo);
+            $('#matchImg').attr('src', data.photo);
             console.log('working')
         })
     })
